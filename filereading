@@ -1,5 +1,6 @@
-print "Read which file?"
+print "Read which file: "
 programName = gets.strip
 File.foreach(programName) do |line|
 	print line
 end
+File.close()
