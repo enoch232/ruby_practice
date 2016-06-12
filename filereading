@@ -1,3 +1,5 @@
 print "Read which file?"
-var programName = gets.strip
-puts programName
+programName = gets.strip
+File.foreach(programName) do |line|
+	print line
+end
