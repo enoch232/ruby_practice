@@ -1,0 +1,3 @@
+print "Read which file?"
+var programName = gets.strip
+puts programName
