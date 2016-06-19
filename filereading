@@ -3,4 +3,3 @@ programName = gets.strip
 File.foreach(programName) do |line|
 	print line
 end
-File.close()
