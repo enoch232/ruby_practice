@@ -1,3 +1,4 @@
+
 require 'test/unit'
 class Document < Test::Unit::TestCase
 	def test_document_holds_onto_contents
