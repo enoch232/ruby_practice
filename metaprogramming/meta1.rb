@@ -3,9 +3,14 @@ class CoolStringClass
   def initialize(name)
   	self.name = name
   end
-  def self.print_cool(string)
-  	puts "#{string} is cool."
+  def print_cool
+  	puts "#{self.name} is cool."
   end
-  
+  def self.print_cooler
+  	puts "Another cool"
+  end
+
 end
-newcool = CoolStringClass.new("cool")
+newcool = CoolStringClass.new("hello")
+newcool.print_cool
+CoolStringClass.print_cooler
